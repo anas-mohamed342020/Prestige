@@ -1,0 +1,206 @@
+.tasks,.p-inputgroup-addon
+{
+  background-color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.team-member
+{
+  background-color: #FFFFFF;
+  height: 100%;
+}
+.team-member-job
+{
+  padding: 3px 5px;
+  background-color: #eaf0f6;
+  color: #525e6c;
+  border-radius: 5px;
+  border: solid 1px#dfe6ee;
+}
+.status
+{
+  position: absolute;
+  margin-left: -27px;
+  height: 15px;
+  width: 15px;
+  background-color: #16b807;
+  border: solid 2px#ffffff;
+  border-radius: 100%;
+  margin-top: 5px;
+}
+.all-member-links
+{
+    padding: 18px;
+    margin-top: -14px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.all-member-links:hover
+{
+  background-color: #09c;
+}
+.p-col-fixed
+{
+  z-index: 500;
+  width: 48px;
+}
+.timeline-icon
+{
+  padding: 5px;
+  border: solid 1px #dfe6ee;
+  background-color: #FFFFFF;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 9px;
+}
+.title
+{
+  padding: 3px 7px;
+  background-color: #eaf0f6;
+  color: #525e6c;
+  border-radius: 5px;
+}
+.time-line-message
+{
+  position: relative;
+  padding: 8px;
+  margin-bottom: 5px;
+  background-color: #FFFFFF;
+  border: 1px solid #ebebef;
+}
+.time
+{
+  float: right;
+  color: #657587;
+  font-size: 12px;
+}
+.card-weather,.card-table,.card-timeline,.card-center
+{
+  background-color: #FFFFFF;
+}
+
+
+
+.weather-days
+{
+  background-color: rgba(255, 255, 255, 0.75);
+  margin-bottom: -15px;
+  width: 100%;
+}
+.weather-wrapper
+{
+  background-image: url(../../assets/images/weather-asset.jpg);
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding-top: 140px;
+}
+.img
+{
+  padding: 3px 0px;
+  width: 60px;
+}
+
+
+
+
+
+.ul
+{
+  padding: 20px 0px;
+}
+.change-city
+{
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.change-city:hover
+{
+  background-color:#a0d2fa;
+}
+.imgs
+{
+  margin: -45px 0 0 5px;
+  border-radius: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.fa-cog
+{
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #09c;
+  color: #FFFFFF;
+}
+.data
+{
+  position: absolute;
+  top: -25px;
+  left: 115px;
+}
+.fa-cog
+{
+  margin-top: -15px;
+  transform: translate(-50%,-50%);
+}
+.user-details
+{
+  padding: 0px 15px 15px 15px;
+  color: #313842;
+  margin-top: 50px;
+}
+.details
+{
+  border: 1px solid #dfe6ee;
+  padding: 10px;
+}
+.thead
+{
+  border: 1px solid #e9ecef;
+  border-width: 0 0 1px 0;
+  color: #495057;
+  transition: 0.2s;
+  padding: 1rem 1rem;
+
+}
+.thead:hover
+{
+  background-color: #e3e9ee;
+}
+.container-fluid
+{
+  background-color: #F2F2F2;
+}
+

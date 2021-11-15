@@ -1,0 +1,476 @@
+.layout-wrapper .layout-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .layout-wrapper .layout-content {
+    flex: 1 1 0;
+    padding: 2em;
+    background: #f2f2f2;
+  }
+
+
+  .layout-content {
+    padding: 2em;
+    background: #f2f2f2;
+  }
+.dashboard .overview-box {
+    text-align: center;
+    position: relative;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 1em;
+    color: #ffffff;
+    border: solid 1px #dfe6ee;
+    border-radius: 3px;
+  }
+  .dashboard .overview-box .overview-box-icon {
+    width: 45px;
+    line-height: 40px;
+    height: 45px;
+    font-size: 24px;
+    margin: auto;
+    margin-top: -24px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+  .dashboard .overview-box .overview-box-icon i {
+    font-size: 1em;
+  }
+  .dashboard .overview-box .overview-box-title {
+    padding: 8px;
+    font-size: 18px;
+    letter-spacing: 0.23px;
+  }
+  .dashboard .overview-box .overview-box-value {
+    padding: 8px;
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+  .dashboard .overview-box .overview-box-status {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+
+
+  .dashboard .overview-box.box-sales {
+    background-image: linear-gradient(to right, #f8c737, #f4a22e);
+  }
+  .dashboard .overview-box.box-sales .overview-box-icon {
+    background-color: #f4a52f;
+    border: solid 1.4px #ffd1a5;
+  }
+
+
+  .dashboard .overview-box.box-views {
+    background-image: linear-gradient(to right, #12aeee, #0080d4);
+  }
+  .dashboard .overview-box.box-views .overview-box-icon {
+    background-color: #0183d6;
+    border: solid 1.4px #96dbf7;
+  }
+  .dashboard .overview-box.box-users {
+    background-image: linear-gradient(to right, #fe7b94, #fd4a85);
+  }
+  .dashboard .overview-box.box-users .overview-box-icon {
+    background-color: #fe5288;
+    border: solid 1.4px #f4cfdb;
+  }
+
+
+
+  .dashboard .overview-box.box-checkins {
+    margin-right: 0;
+    background-image: linear-gradient(to right, #bc74f8, #9042db);
+  }
+  .dashboard .overview-box.box-checkins .overview-box-icon {
+    padding: 5px 7px;
+    line-height: 30px;
+    background-color: #9346dd;
+    border: solid 1.4px #dac2ef;
+  } 
+
+
+
+  
+.card {
+  border-radius: 3px;
+  background: #ffffff;
+  border: solid 1px #dfe6ee;
+  padding: 1.5rem;
+  margin-bottom: 1em;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.card:last-child {
+  margin-bottom: 0;
+}
+.card.card-w-title {
+  padding-bottom: 1em;
+}
+.card .card-header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.card .card-subtitle {
+  color: #5f6061;
+  font-weight: 600;
+  margin: -1rem 0 1rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+.dashboard .progress-card {
+  height: 100%;
+}
+.dashboard .progress-card p {
+  font-size: 13px;
+  color: #657587;
+  margin-bottom: 25px;
+}
+.dashboard .progress-card .progressbars ul {
+  padding: 0;
+}
+.dashboard .progress-card .progressbars ul li {
+  list-style: none;
+  display: flex;
+  margin-bottom: 15px;
+}
+.dashboard .progress-card .progressbars ul li label {
+  width: 25%;
+}
+.dashboard .progress-card .progressbars .progressbar {
+  margin: auto 10px;
+  height: 10px;
+  padding: 0;
+  width: 65%;
+  background-color: #eaf0f6;
+  border-radius: 5px;
+}
+.dashboard .progress-card .progressbars .progressbar .progress {
+  height: 10px;
+  background-image: linear-gradient(to right, #1E88E5, #1360a4);
+  border-radius: 5px;
+}
+.dashboard .progress-card .month-buttons {
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+.dashboard .progress-card .month-buttons:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.dashboard .progress-card .month-buttons a {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+.dashboard .progress-card .month-buttons a:nth-child(1) {
+  float: left;
+}
+.dashboard .progress-card .month-buttons a:nth-child(2) {
+  float: right;
+}
+
+
+
+
+
+
+.dashboard .statistics {
+  padding: 0;
+  position: relative;
+  height: 100%;
+}
+.dashboard .statistics ul {
+  padding: 0;
+}
+.dashboard .statistics ul li {
+  padding: 10px;
+  color: #1b1c1e;
+  list-style: none;
+  border-bottom: solid 1px #dfe6ee;
+}
+.dashboard .statistics ul li:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.dashboard .statistics ul img {
+  width: 45px;
+  height: 45px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.dashboard .statistics ul .car-box {
+  margin-left: 1em;
+  display: inline-block;
+  vertical-align: middle;
+}
+.dashboard .statistics ul .car-box .car-info {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+.dashboard .statistics ul .car-box .car-id {
+  color: #657587;
+  font-size: 12px;
+}
+.dashboard .statistics ul .percentage {
+  float: right;
+  margin-left: 1em;
+  font-size: 12px;
+  font-weight: 700;
+  color: #16b807;
+}
+.dashboard .statistics img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.chat {
+  padding: 0;
+}
+.chat h5 {
+  padding: 1em 1em 0 1em;
+}
+.chat ul {
+  padding: 0 1em;
+  padding-bottom: 1em;
+  margin: 0;
+  list-style-type: none;
+  border-bottom: solid 1px #dfe6ee;
+}
+.chat ul li .p-col-fixed {
+  width: 48px;
+}
+.chat ul li img {
+  width: 42px;
+}
+.chat ul li .chat-profile-info {
+  margin-bottom: 7px;
+}
+.chat ul li .chat-profile-info .chat-profile {
+  font-size: 14px;
+
+  font-weight: 500;
+  margin-right: 7px;
+}
+.chat ul li .chat-profile-info .chat-profile-job {
+  font-size: 14px;
+
+  padding: 3px 5px;
+  background-color: #eaf0f6;
+  color: #525e6c;
+  border-radius: 5px;
+}
+.chat ul li .chat-message {
+  position: relative;
+  margin-bottom: 5px;
+  font-size: 14px;
+  padding: 8px;
+  background-color: #ffffff;
+  border: 1px solid #ebebef;
+  -moz-border-radius: solid 1px 3px;
+  -webkit-border-radius: solid 1px 3px;
+  border-radius: solid 1px 3px;
+}
+.chat ul li .message-time {
+  float: right;
+  color: #657587;
+  font-size: 12px;
+}
+.chat .new-message {
+  padding: 0;
+}
+.chat .new-message input {
+  width: 100%;
+  padding: 13px;
+  padding-bottom: 15px;
+  outline: 0 none;
+  color: #5f6061;
+  font-family: "Sarabun", sans-serif;
+  font-size: 14px;
+  transition-duration: 0.3s;
+  border: none;
+}
+.chat .new-message input:hover {
+  background-color: #ffffff;
+  transition-duration: 0.3s;
+}
+.chat .new-message input:active, .chat .new-message input:focus {
+  background-color: #ffffff;
+  outline: -webkit-focus-ring-color auto 1px;
+}
+.chat .new-message button {
+  padding: 7px;
+  height: 100%;
+  margin-right: 1px;
+  background-color: #dfe6ee;
+  border: solid 1px #dfe6ee;
+}
+.chat .new-message button:first-of-type {
+  margin-right: 1px;
+}
+.chat .new-message button:last-of-type {
+  margin-right: 0px;
+}
+.chat .new-message button:hover {
+  background-color: #b0bac4;
+  border-color: #b0bac4;
+}
+.chat .new-message button i {
+  color: #657587;
+  padding: 5px;
+  font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.landing-body .landing-wrapper #features .p-grid {
+  margin-top: 15px;
+}
+.landing-body .landing-wrapper #features .p-grid .p-col-12 {
+  padding: 1em;
+}
+.landing-body .landing-wrapper #features .p-grid .feature-box {
+  padding: 24px;
+}
+.landing-body .landing-wrapper #features .p-grid .feature-box .feature-icon {
+  background-color: rgba(234, 240, 246, 0.1);
+  width: 180px;
+  line-height: 260px;
+  height: 180px;
+  text-align: center;
+  border: solid 3px #eaf0f6;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.landing-body .landing-wrapper #features .p-grid .feature-box .feature-icon:hover {
+  background-color: rgba(234, 240, 246, 0.3);
+}
+.landing-body .landing-wrapper #features .p-grid .feature-box h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 8px 0;
+}
+.landing-body .landing-wrapper #features .p-grid .feature-box p {
+  margin: 0;
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+
+
+
+
+
+

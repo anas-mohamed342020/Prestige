@@ -1,0 +1,272 @@
+<div class="layout-content">
+  <div class="dashboard row">
+    <div class="col-md-6 col-lg-3">
+      <div class="overview-box box-sales">
+        <div class="overview-box-icon"><i class="fas fa-dollar-sign"></i></div>
+        <div class="overview-box-title">Sales</div>
+        <div class="overview-box-value">$ 92,440</div>
+        <div class="overview-box-status"><b>20%</b> more than yesterday</div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+      <div class="overview-box box-views">
+        <div class="overview-box-icon"><i class="fas fa-search"></i></div>
+        <div class="overview-box-title">Views</div>
+        <div class="overview-box-value">7029</div>
+        <div class="overview-box-status"><b>7%</b> more than yesterday</div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+      <div class="overview-box box-users">
+        <div class="overview-box-icon"><i class="fas fa-user"></i></div>
+        <div class="overview-box-title">Users</div>
+        <div class="overview-box-value">9522</div>
+        <div class="overview-box-status"><b>12%</b> more than yesterday</div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+      <div class="overview-box box-checkins">
+        <div class="overview-box-icon">
+          <i class="fas fa-map-marker-alt"></i>
+        </div>
+        <div class="overview-box-title">Check-ins</div>
+        <div class="overview-box-value">4211</div>
+        <div class="overview-box-status"><b>3%</b> more than yesterday</div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4 py-3">
+      <div class="card donut">
+        <h5 style="margin-top: 0">Income Statistics</h5>
+        <div class="container">
+          <div style="display: block">
+            <canvas
+              part="abas"
+              mdbChart
+              [chartType]="chartType"
+              [datasets]="chartDatasets"
+              [labels]="chartLabels"
+              [colors]="chartColors"
+              [options]="chartOptions"
+              [legend]="true"
+              (chartHover)="chartHovered($event)"
+              (chartClick)="chartClicked($event)"
+            >
+            </canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4 py-3">
+      <div class="card progress-card">
+        <h5 style="margin-top: 0">Great News!</h5>
+        <p>
+          Podcasting operational change management inside of workflows to
+          establish a framework. Collaboratively administrate empowered markets
+          via plug-and-play networks.
+        </p>
+        <div class="progressbars">
+          <ul>
+            <li class="p-grid">
+              <label class="p-col-fixed">Sapphire</label>
+              <div class="progressbar p-col-fixed">
+                <div class="progress" style="width: 70%"></div>
+              </div>
+            </li>
+            <li class="p-grid">
+              <label class="p-col-fixed">Roma</label>
+              <div class="progressbar p-col-fixed">
+                <div class="progress" style="width: 60%"></div>
+              </div>
+            </li>
+            <li class="p-grid">
+              <label class="p-col-fixed">Ultima</label>
+              <div class="progressbar p-col-fixed">
+                <div class="progress" style="width: 65%"></div>
+              </div>
+            </li>
+            <li class="p-grid">
+              <label class="p-col-fixed">Barcelona</label>
+              <div class="progressbar p-col-fixed">
+                <div class="progress" style="width: 30%"></div>
+              </div>
+            </li>
+            <li class="p-grid">
+              <label class="p-col-fixed">Prestige</label>
+              <div class="progressbar p-col-fixed">
+                <div class="progress" style="width: 85%"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="month-buttons">
+          <a><i class="fas fa-angle-left"></i> Previous Month</a
+          ><a>Next Month <i class="fas fa-angle-right"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4 py-3">
+      <div class="card statistics d-flex flex-column justify-content-between">
+        <ul class="p-2">
+          <li>
+            <img src="../../assets/images/bmw.jpg" alt="prestige-layout" />
+            <div class="car-box">
+              <span class="car-info">BMW | 2018, Black</span
+              ><span class="car-id">#156122641</span>
+            </div>
+            <div class="percentage">+%44</div>
+          </li>
+          <li>
+            <img src="../../assets/images/honda.jpg" alt="prestige-layout" />
+            <div class="car-box">
+              <span class="car-info">Honda | 2019, White</span
+              ><span class="car-id">#995123552</span>
+            </div>
+            <div class="percentage">+%44</div>
+          </li>
+          <li>
+            <img
+              src="../../assets/images/volkswagen.jpg"
+              alt="prestige-layout"
+            />
+            <div class="car-box">
+              <span class="car-info">Volkswagen | 2000, Red</span
+              ><span class="car-id">#480016380</span>
+            </div>
+            <div class="percentage">+%44</div>
+          </li>
+        </ul>
+
+        <img
+          styleclass="statistic"
+          src="../../assets/images/graph@2x.png"
+          alt="prestige-layout"
+        />
+      </div>
+    </div>
+
+    <div class="col-lg-8 py-3">
+      <div class="card chart">
+        <h5 style="margin-top: 0">Quarter Reports</h5>
+        <app-chart></app-chart>
+      </div>
+    </div>
+
+    <div class="col-lg-4 py-3">
+      <div class="card chat">
+        <h5
+          style="margin-top: 0; font-size: 18px !important ; font-weight: 500"
+        >
+          Chat
+        </h5>
+        <ul>
+          <li class="message-from">
+            <div class="d-flex justify-content-between">
+              <div class="p-col-fixed">
+                <img
+                  class="rounded-circle"
+                  src="../../assets/images/دى صورة.jpg"
+                  alt="prestige-layout"
+                />
+              </div>
+              <div class="p-col">
+                <div class="chat-profile-info">
+                  <span class="chat-profile">Kate</span
+                  ><span class="chat-profile-job">Managment</span>
+                </div>
+                <div class="chat-message">
+                  Hey Yeniffer And Micheal, I heard there is a task about
+                  unexpected event occured near San Mateo recently. Can you guys
+                  handle today?
+                </div>
+                <div class="message-time">22 mins ago</div>
+              </div>
+            </div>
+          </li>
+          <li class="message-to">
+            <div class="d-flex justify-content-between">
+              <div class="p-col-fixed">
+                <img
+                  class="rounded-circle"
+                  src="../../assets/images/دى صورة.jpg"
+                  alt="prestige-layout"
+                />
+              </div>
+              <div class="p-col">
+                <div class="chat-profile-info">
+                  <span class="chat-profile">Yeniffer</span
+                  ><span class="chat-profile-job">Development</span>
+                </div>
+                <div class="chat-message">
+                  I’m busy today but we can work on it on Sunday afternoon. Does
+                  that sounds good for you Micheal?
+                </div>
+                <div class="message-time">12 mins ago</div>
+              </div>
+            </div>
+          </li>
+          <li class="message-from">
+            <div class="d-flex">
+              <div class="p-col-fixed">
+                <img
+                  class="rounded-circle"
+                  src="../../assets/images/دى صورة.jpg"
+                  alt="prestige-layout"
+                />
+              </div>
+              <div class="flex-grow-1">
+                <div class="chat-profile-info">
+                  <span class="chat-profile">Micheal</span
+                  ><span class="chat-profile-job">Design</span>
+                </div>
+                <div class="chat-message">Sounds good for me.</div>
+                <div class="message-time">2 mins ago</div>
+              </div>
+            </div>
+          </li>
+          <li class="message-to">
+            <div class="d-flex justify-content-between">
+              <div>
+                <img
+                  class="rounded-circle"
+                  src="../../assets/images/دى صورة.jpg"
+                  alt="prestige-layout"
+                />
+              </div>
+              <div class="p-col">
+                <div class="chat-profile-info">
+                  <span class="chat-profile">Yeniffer</span
+                  ><span class="chat-profile-job">Development</span>
+                </div>
+                <div class="chat-message">
+                  Great! See you on Sunday. Don't forget the bring coffee :)
+                </div>
+                <div class="message-time">12 mins ago</div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="new-message">
+          <div class="p-grid p-nogutter d-flex justify-content-between">
+            <div class="p-col flex-grow-1">
+              <input placeholder="Write your message.." />
+            </div>
+            <div class="p-col-fixed">
+              <button><i class="fas fa-paperclip"></i></button
+              ><button><i class="fas fa-upload"></i></button
+              ><button><i class="fas fa-save"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <app-karim></app-karim>
+  </div>
+</div>
+  <app-footer></app-footer>

@@ -1,0 +1,58 @@
+.layout-wrapper.layout-fullwidth.layout-menu-overlay .layout-actionbar {
+  padding-left: 100px;
+}
+.layout-actionbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 10px 25px;
+  position: relative;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.layout-actionbar .layout-breadcrumb {
+  color: #5f6061;
+}
+.layout-actionbar .layout-actions {
+  padding: 0;
+}
+.layout-actionbar .layout-actions ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+}
+.layout-actionbar .layout-actions ul > li {
+  display: inline-block;
+}
+.layout-actionbar .layout-actions ul > li > button {
+  position: relative;
+  margin-left: 5px;
+  background-color: #f8f9fa;
+  color: #757575;
+  font-size: 15px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+.layout-actionbar .layout-actions ul > li > button .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 16px;
+  margin-top: -0.5em;
+  margin-left: -0.5em;
+  font-size: 1.25em;
+}
+.layout-actionbar .layout-actions ul > li > button:hover {
+  background-color: #e9ecef;
+}
+    
